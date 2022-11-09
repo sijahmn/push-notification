@@ -53,7 +53,7 @@ function urlBase64ToUint8Array(base64String) {
 }
 
 // turn off button for notification
-button.addEventListener("clicked", () => {
+button.addEventListener("click", () => {
   navigator.permissions.query({ name: "push" }).then(function (status) {
     // Initial permission status is `status.state`
 
