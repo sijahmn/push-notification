@@ -36,7 +36,7 @@ async function send() {
   console.log("Push Sent...");
 }
 
-//  function to process applicationServerKey
+//  function to process applicationServerKey - here this function will convert public vid to 8 bit array .
 function urlBase64ToUint8Array(base64String) {
   const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
   const base64 = (base64String + padding)
